@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+#welcome-section, #navbar {
+  background: #e0ebe8;
+}
+
+#navbar {
+  top: 0;
+  position: fixed;
+}
+
+#navbar ul {
+margin: 0;
+text-align: right;
+  list-style-type: none;
+}
+
+#navbar ul > li {
+  display: inline-block;
+}
+
+#welcome-section {
+  height: 100vh;
+}
